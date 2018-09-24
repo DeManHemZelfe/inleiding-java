@@ -1,17 +1,13 @@
-package h06;
-
 import java.awt.*;
 import java.applet.*;
 
 
-public class Reken extends Applet {
-    int a;
-    int b;
-    int c;
-    int uitkomst;
+public class Reken3 extends Applet {
+    double a, b, c, uitkomst;
+
 
     public void init() {
-        a = 7;
+        a = 8;
         b = 8;
         c = 3;
         uitkomst = (a + b) / c;
